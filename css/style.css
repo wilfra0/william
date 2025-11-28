@@ -1,1 +1,50 @@
 /* Denna fil skall innehålla din CSS kod */
+#wrapper {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    grid-template-areas:
+        "n n n n n n"
+        "h h h h h h"
+        "m m m m m m"
+        "m m m m m m"
+        "f f f f f f";
+}
+
+#n {
+    grid-area: n;
+    padding: 15px;
+    border: 1px solid #000;
+    justify-content: space-evenly;
+    display: flex;
+    font-weight: bold;
+    font-family: arial;
+}
+
+#h {
+    grid-area: h;
+    font-weight: bold;
+    text-align: center;
+    background-image: url("/img/naturbakgrund.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 15em;
+    max-height: 15em;
+    padding-top: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#m {
+    grid-area: m;
+    background-color: #d9c8b0;
+    padding: 10vh;
+    min-height: 20em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+}
+

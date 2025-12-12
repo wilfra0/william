@@ -49,12 +49,13 @@ a {
     grid-area: m;
     background-color: #d9c8b0;
     padding: 10vh;
+    padding-top: 10vh;
     min-height: 20em;
     font-family: "times new roman";
     font-weight: bold;
+    font-size: larger;
     text-align: center;
     color: rgb(45, 60, 35);
-    text-shadow: #000000 px 2px 2px;
     border: #000000 solid 2px;
 }
 
@@ -66,9 +67,44 @@ a {
 }
 
 #lovbild {
-    justify-content: right;
-    align-items: right;
-    max-height: 30em;
+    display: flex;
+    float: right;
+    margin-left: 5vh;
+    max-height: 40vh;
+    border-radius: 15px;
 }
 
+#morkskog {
+    display: flex;
+    float: left;
+    margin-right: 5vh;
+    max-height: 40vh;
+    border-radius: 15px;
+}
 
+#text1 {
+    margin-bottom: 5vh;
+    display : flex;
+    justify-content: left;
+}
+
+#text2 {
+    margin-top: 5vh;
+    display : flex;
+    justify-content: right;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    padding: 15px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 30%;
+}

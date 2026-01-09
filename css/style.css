@@ -34,7 +34,7 @@ a {
     grid-area: h;
     font-weight: bold;
     text-align: center;
-    background-image: url("/william/img/lovbakgrund.jpg");
+    background-image: url("/img/lovbakgrund.jpg");
     background-size:cover;
     background-position: center;
     min-height: 15em;
@@ -107,4 +107,21 @@ a {
     background: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     width: 30%;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.card .las-mer {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 15px 25px;
+    background-color: #7b8c78;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: bold;
 }

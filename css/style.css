@@ -45,6 +45,10 @@ a {
     text-shadow: 2px 2px 4px #000000;
 }
 
+h1 {
+    font-size: 4em;
+}
+
 #m {
     grid-area: m;
     background-color: #d9c8b0;
@@ -66,33 +70,27 @@ a {
     
 }
 
-#lovbild {
-    display: flex;
-    float: right;
-    margin-left: 5vh;
-    max-height: 40vh;
+#skog {
+
+}
+
+#produkter {
+    max-height: 60vh;
     border-radius: 15px;
 }
 
-#morkskog {
-    display: flex;
-    float: left;
-    margin-right: 5vh;
-    max-height: 40vh;
+#ingredienser {
+    margin-top: 5vh;
+    max-height: 60vh;
     border-radius: 15px;
 }
 
 #text1 {
     margin-bottom: 5vh;
-    display : flex;
-    justify-content: left;
+    justify-content: center;
 }
 
-#text2 {
-    margin-top: 5vh;
-    display : flex;
-    justify-content: right;
-}
+
 
 .card-container {
     display: flex;
